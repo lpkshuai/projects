@@ -1,0 +1,511 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f0f3ef;
+}
+/*版心公共*/
+.w {
+	width: 1190px;
+	margin: 0 auto;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.f10 {
+	color: #f10215!important;
+}
+img {
+	display: block;
+}
+ul, h1, input, button, p, h5, dd, dt, dl {
+	margin: 0;
+	padding: 0;
+}
+input, button {
+	border: 0;
+	outline: none;
+}
+a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #999999;
+}
+a:hover {
+	color: #c81623!important;
+}
+ul {
+	list-style: none;
+	
+}
+header {
+	height: 80px;
+	background-color: #0a5366;
+}
+/*声明字体*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?9y6ble');
+  src:  url('../fonts/icomoon.eot?9y6ble#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?9y6ble') format('truetype'),
+    url('../fonts/icomoon.woff?9y6ble') format('woff'),
+    url('../fonts/icomoon.svg?9y6ble#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.shortcut {
+	height: 30px;
+	line-height: 30px;
+	background-color: #e3e4e5;
+	border-bottom: 1px solid #dddddd;
+}
+.shortcut li {
+	float: left;
+}
+.shortcut i {
+	font-family: "icomoon";
+	font-style: normal;
+	color: #cccccc;
+}
+.city {
+	margin-left: 200px;
+}
+#l_myjd {
+	padding: 0 5px;
+	padding-bottom: 1px;
+	border: 1px solid #E3E4E5;
+	border-bottom: none;
+	line-height: 27px;
+}
+.space {
+	width: 1px;
+	height: 10px;
+	background-color: #cccccc;
+	margin: 12px 12px 0;
+}
+.mobile {
+	position: relative;
+}
+.mobile img {
+	position: absolute;
+	left: -7px;
+	top: 24px;
+	border: 1px solid #cccccc;
+	padding: 3px;
+}
+.middle {
+	height: 140px;
+	position: relative;
+}
+.logo {
+	position: absolute;
+	top: -30px;
+	left: 0;
+	box-shadow: 0px -10px 10px rgba(0, 0, 0,0.3);
+}
+.logo a {
+	display: block;
+	width: 190px;
+	height: 170px;
+	background: url(../images/logo.png) no-repeat;
+}
+.form {
+	width: 550px;
+	height: 35px;
+	
+	position: absolute;
+	top: 25px;
+	left: 320px;
+}
+.form input {
+	width: 495px;
+	height: 33px;
+	border:1px solid #f10215;
+	float: left;
+	font-size: 14px;
+	padding-left: 3px;
+	
+
+}
+.form button {
+	width: 50px;
+	height: 35px;
+	border: 0;
+	background-color: #f10215;
+	float: left;
+
+}
+.form button i {
+	font-family: "icomoon";
+	font-style: normal;
+	color: #ffffff;
+}
+.shopcar {
+	width: 188px;
+	height: 33px;
+	line-height: 33px;
+	border: 1px solid #cccccc;
+	position: absolute;
+	top: 25px;
+	right: 95px;
+	background-color: #ffffff;
+	text-align:center; 
+	color: #f10215;
+}
+.shopcar i {
+	font-family: "icomoon";
+	margin-right: 5px;
+	font-style: normal;
+
+}
+.shopcar span {
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	background-color: #f10215;
+	border-radius: 50%;
+	position: absolute;
+	top: 5px;
+	right: 30px;
+	font-size: 12px;
+	color: #ffffff;
+}
+.hotwords {
+	position: absolute;
+	top: 68px;
+	left: 320px;
+
+}
+.navitems {
+	width: 770px;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	bottom: 0;
+	left: 200px;
+}
+.navitems li {
+	float: left;
+	margin-left: 30px;
+}
+.navitems li a {
+	font-size: 14px;
+	color: #333;
+}
+.navitems li a:hover {
+	color: #f10215;
+}
+.navitems .space {
+	/*margin-top: 15px;
+	margin-left: 15px;
+	margin-right: -15px;*/
+	margin: 15px -15px 0 15px;
+}
+.yghw {
+	position: absolute;
+	bottom: 8px;
+	right: 0;
+
+}
+footer {
+	height: 500px;
+	background-color: #f0f3ef;
+	/*background-color: #eaeaea;*/
+	margin-top: 35px;
+}
+
+.service {
+	padding: 30px 0;
+	border-bottom: 1px solid #dedede;
+	overflow: hidden;
+}
+
+.service ul li {
+	width: 297px;
+	height: 43px;
+	line-height: 43px;
+	position: relative;
+	float: left;
+}
+.service li h5 {
+	position: absolute;
+	left: 36px;
+	width: 36px;
+	height: 43px;
+	background: url(../images/tubiao.png);
+	background-position: 0 -193px;
+}
+.service li:nth-child(2) h5 {
+	background-position: -41px -193px;
+}
+.service li:nth-child(3) h5 {
+	background-position: -82px -193px;
+}
+.service li:nth-child(4) h5 {
+	background-position: -123px -193px;
+}
+.service li p {
+	font-weight: 700;
+	font-size: 18px;
+	margin-left: 82px;
+}
+
+.help {
+	height: 200px;
+	border-bottom: 1px solid #dedede;
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+.help dl {
+	width: 192px;
+	float: left;
+}
+.help dt,
+.coverage h5 {
+	height: 30px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #666666;
+}
+.help dd {
+	height: 22px;
+
+}
+.help a {
+	color: #666666;
+}
+.help a:hover {
+	color: #c81623;
+}
+
+.coverage {
+	width: 200px;
+	height: 150px;
+	background: url(../images/tubiao.png);
+
+}
+.coverage h5 {
+	text-align: center;
+}
+.coverage p {
+	font-size: 12px;
+	line-height: 18px;
+	color: #666666;
+	width: 180px;
+}
+.coverage a {
+	display: block;
+	margin-top: 5px;
+	width: 180px;
+	text-align: right;
+}
+.copyright {
+	padding-top: 20px;
+	text-align: center;
+	color: #666666;
+	font-size: 12px;
+}
+.copyright span {
+	margin: 0 10px;
+	color: #999;
+}
+.copyright a {
+	color: #666666;
+}
+.copyright div {
+	margin-top: 20px;
+}
+.copyright div p {
+	line-height: 22px;
+	color: #999;
+}
+.footer_icon a {
+	display: inline-block;
+	width: 104px;
+	height: 33px;
+	background: url(../images/tubiao.png) no-repeat -205px -148px;
+	margin: 40px 4px 0;
+}
+.footer_icon a:nth-child(2) {
+	background-position: -205px -111px; 
+}
+.footer_icon a:nth-child(3) {
+	background-position: -205px -74px; 
+}
+.footer_icon a:nth-child(4) {
+	background-position: -205px -37px; 
+}
+.footer_icon a:nth-child(5) {
+	background-position: -205px 0px; 
+}
+.footer_icon a:nth-child(6) {
+	background-position: 0px -155px; 
+}
+
+.flash_deals {
+	position: relative;
+}
+.flashl {
+	width: 190px;
+    height: 275px;
+    background: #e83632;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.flash_1 {
+	font-size: 34px;
+	padding-top: 45px;
+	color: #ffffff;
+}
+.flash_2 {
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.5);
+}
+.flash_3 {
+	width: 20px;
+	height: 33px;
+	background: url(../images/sprite.png) -35px -25px no-repeat;
+	margin: 8px auto;
+}
+.flash_4 {
+	font-size: 16px;
+	color: #ffffff;
+}
+.flash_5 {
+	margin-left: 30px;
+	position: relative;
+}
+.flash_5 span {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #2f3430;
+	float: left;
+	margin-right: 5px;
+	margin-top: 22px;
+}
+.line {
+	width: 130px;
+	height: 1px;
+	background-color: #e83632;
+	position: absolute;
+	top: 42px;
+}
+.flashr {
+	width: 800px;
+	height: 275px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0px;
+	left: 190px;
+}
+.flashr img {
+	margin: 40px 30px 0px;
+}
+.flashr_l {
+	width: 199px;
+	height: 275px;
+	float: left;
+    border-right: 1px solid #f0f0f0;
+}
+.flashr_l p:hover {
+	color: #c81623;
+}
+.flashr_l p {
+	width: 160px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin: 10px auto;
+	padding: 0 15px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	color: #666;
+}
+.span_d {
+	width: 160px;
+	height: 22px;
+	margin: 0 15px;
+	box-sizing: border-box;
+	border: 1px solid #e6382f;
+}
+.flashr_s_1 {
+	display: inline-block;
+	float: left;
+	width: 79px;
+    height: 20px;
+    background: #e6382f;
+    line-height: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.flashr_s_2 {
+	display: inline-block;
+	float: left;
+	width: 79px;
+    height: 20px;
+    line-height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: line-through;
+}
+.flashr_r {
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 200px;
+	height: 275px;
+	background-color: #ffffff;
+}
+.flashr_r img {
+	padding: 8px 10px 7px;
+}
+/*隐藏部分*/
+.list_1 {
+	position: relative;
+	display: none;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;	
+    width: 280px;
+    box-shadow: 1px 2px 1px rgba(0,0,0,.1);
+	top: 0px;
+	left: 702px;
+	z-index: 300;
+	overflow: hidden;
+}
+.list_1_t {
+	height: 75px;
+	padding: 10px 0 10px 15px;
+}
+.list_1_b {
+	height: 50px;
+	padding: 10px 0 10px 15px;
+	border-top: solid 1px #f1f1f1;
+	
+}
+.border {
+	border: 1px solid #ccc!important;
+	border-bottom: none!important;
+	box-sizing: border-box;
+}
+.iteam {
+	display: block;
+	float: left;
+	width: 122px;
+	height: 24px;
+	line-height: 24px;
+}
