@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+/*导航----------------------------------------------------*/
+.navbar>.container .navbar-brand {
+	color: #fff;
+	font-size: 20pt;
+}
+.navbar {
+	border-radius: 0;
+	margin: 0;
+}
+
+/*轮播图---------------------------------------------------*/
+.middle>.container-fluid {
+	padding: 0;
+}
+.jumbotron {
+	margin: 0;
+}
+
+/*BANNER--------------------------------------------------*/
+.banner {
+	text-align: center;
+	background-color: #F2F2F2;
+}
+.banner img {
+	display: inline-block;
+	width: 580px;
+	height: 320px;
+	margin: 50px auto;
+}
+.banner .row {
+	margin: 0;
+}
+.row .col-md-4 {
+	padding: 0;
+}
+
+/*NEWSONG-------------------------------------------------*/
+.song {
+	background-color: #fff;
+}
+.newsong .row {
+	padding-top: 10px;
+	border-top: 1px solid #f2f2f2;
+}
+.newsong img {
+	width: 100px;
+}
+.newsong .col-md-2 {
+	text-align: center;
+}
+.newsong .col-md-2 h5, .newsong .col-md-2 p {
+	text-align: left;
+	margin-left: 100px;
+}
+.newsong .col-md-2:first-child {
+	margin-left: 315px;
+}
+
+/*RECOMMEND--------------------------------------------------*/
+.middle .head {
+	text-align: center;
+}
+.recommend {
+	background-color: #f2f2f2;
+}
+.recommend .row {
+	margin: 0;
+}
+.recommend img {
+	display: inline-block;
+	width: 220px;
+	height: 220px;
+}
+.recommend .col-md-1 {
+	padding: 0;
+	margin: 10px;
+	width: 220px;
+}
+.recommend .col-md-1:first-child {
+	margin-left: 360px;
+}
+.recommend p {
+	display: block;
+	width: 220px;
+	margin: 10px 0;
+}
+
+
+/*TOPLIST------------------------------------------------*/
+.toplist {
+	margin-bottom: 20px;
+}
+.toplist .list dl {
+	margin-top: 10px;
+	border: 1px solid #ccc;
+}
+.toplist .list dt {
+	text-align: center;
+}
+.toplist .list dd:nth-child(2n) {
+	background-color: #F2F2F2;
+}
+.toplist .list dd span {
+	display: inline-block;
+	width: 50px;
+	margin-top: 5px;
+	text-align: center;
+	margin-left: 20px;
+}
+.toplist .list dd a {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+ /*底部--------------------------------------------------*/
+footer {
+	background-color: #222;
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer .container {
+	height: 100px;
+	/*background-color: #fff;*/
+	color: #fff;
+	font-size: 14pt;
+	text-align: center;
+	line-height: 100px;
+}
