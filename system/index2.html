@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>用户首页</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	<style>
+		#list ul {
+			list-style: none;
+		}
+		#list ul li {
+			display: inline-block;
+			margin-right: 30px;
+			font-size: 12pt;
+		}
+	</style>
+</head>
+<body>
+	<!-- 导航 -->
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<!-- 小屏幕导航按钮和logo -->
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="index2.html" class="navbar-brand">工作量计算系统</a>
+			</div>
+			<!-- 小屏幕导航按钮和logo -->
+			<!-- 导航 -->
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index2.html"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;系统首页</a></li>
+					<li><a href="content2.php"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;统计报表</a></li>
+					<li><a href="rules2.php"><span class="glyphicon glyphicon-book"></span>&nbsp;&nbsp;计算规则</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expended="false">
+							普通用户
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="dLabel">
+							<li><a href="index2.html"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;&nbsp;系统首页</a></li>
+							<li><a href="content2.php"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;统计报表</a></li>
+							<li><a href="rules2.php"><span class="glyphicon glyphicon-book"></span>&nbsp;&nbsp;计算规则</a></li>
+						</ul>
+					</li>
+					<li><a href="login.html"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a></li>
+				</ul>
+			</div>
+			<!-- 导航 -->
+		</div>
+	</nav>
+	<!-- 导航 -->
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" style="margin-bottom: 30px;">
+				<h3>欢迎来到信息工程学院实验教学工作量计算系统。您可以：</h3>
+			</div>
+			<div class="col-md-12" id="list" style="margin-bottom: 30px;">
+				<ul>
+					<li><a href="rules2.php">查看规则</a></li>
+					<li><a href="content2.php">查看工作量</a></li>
+				</ul>
+			</div>
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">校园风景</div>
+					<div class="panel-body images">
+						<div class="col-md-12">
+							<div class="col-md-4">
+								<img class="img-responsive center-block" src="images/beat01.jpg">
+							</div>
+							<div class="col-md-4">
+								<img class="img-responsive center-block" src="images/jb01.jpg">
+							</div>
+							<div class="col-md-4">
+								<img class="img-responsive center-block" src="images/jggy.jpg">
+							</div>
+						</div>
+						<div class="col-md-12" style="margin-top: 10px;">
+							<div class="col-md-4">
+								<img class="img-responsive center-block" src="images/jn.jpg">
+							</div>
+							<div class="col-md-4">
+								<img class="img-responsive center-block" src="images/tyg01.jpg">
+							</div>
+							<div class="col-md-4">
+								<img class="img-responsive center-block" src="images/xd01.jpg">
+							</div>
+						</div>
+						<div class="col-md-12" style="margin-top: 10px;">
+							<div class="col-md-4">
+								<img class="img-responsive center-block" src="images/xx01.jpg">
+							</div>
+							<div class="col-md-4">
+								<img class="img-responsive center-block" src="images/xz01.jpg">
+							</div>
+							<div class="col-md-4">
+								<img class="img-responsive center-block" src="images/tsg01.jpg" style="width: 220px;height: 161px;">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>	
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>信息工程学院实验教学工作量计算系统</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

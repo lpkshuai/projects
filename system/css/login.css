@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(../images/bg.jpg) 0 0 no-repeat;
+	background-size: cover;
+}
+.form {
+	background: rgba(0,0,0,0.35);
+	width:400px;
+	margin: 300px auto;
+}
+.form button[type='submit'] {
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.form a {
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.form label {
+	color: #fff;
+}
+.form-title {
+	margin-bottom: 20px;
+	color: #fff;
+}
