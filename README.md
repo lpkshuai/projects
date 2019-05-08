@@ -3,6 +3,12 @@
 
 部分效果：
 
+旅游App
+
+<img src="https://github.com/lpkshuai/projects/blob/master/imgs/qn1.png?raw=true" />
+<img src="https://github.com/lpkshuai/projects/blob/master/imgs/qn2.png?raw=true" />
+<img src="https://github.com/lpkshuai/projects/blob/master/imgs/qn3.png?raw=true" />
+
 京东
 
 <img src="https://github.com/lpkshuai/projects/blob/master/imgs/jd.png?raw=true" />
